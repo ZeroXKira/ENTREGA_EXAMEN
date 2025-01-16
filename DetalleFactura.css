@@ -1,0 +1,105 @@
+/* Estilos específicos para la página DetalleFactura */
+
+/* Contenedor principal */
+.detalle-factura-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #d5e8ff, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Encabezado */
+  .detalle-factura-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .detalle-factura-header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .detalle-factura-header button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detalle-factura-header button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Secciones de información */
+  .info-documento,
+  .items-documento {
+    margin-bottom: 30px;
+  }
+  
+  .info-documento h2,
+  .items-documento h2 {
+    font-size: 20px;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .info-documento p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #2c3e50;
+  }
+  
+  .info-documento strong {
+    color: #3498db;
+  }
+  
+  /* Tabla de ítems */
+  .items-documento table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .items-documento th,
+  .items-documento td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .items-documento th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .items-documento tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .items-documento tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .items-documento tr:hover {
+    background-color: #d5e8ff;
+  }
+  
+  /* Mensaje de error */
+  .detalle-factura-error {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }

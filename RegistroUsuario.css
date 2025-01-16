@@ -1,0 +1,96 @@
+/* Estilos específicos para la página de registro */
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #c1f0f6, #add8e6);
+  }
+  
+  .registro-header {
+    width: 100%;
+    background: #87cefa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .registro-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cerrar-sesion {
+    background: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cerrar-sesion:hover {
+    background: #ff3333;
+  }
+  
+  .registro-main {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .registro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .registro-label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .registro-label input,
+  .registro-label select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registro-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+  }
+  
+  .registro-submit {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registro-submit:hover {
+    background: #45a049;
+  }
+  
+  .registro-cancel {
+    background: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registro-cancel:hover {
+    background: #e41e26;
+  }
+  

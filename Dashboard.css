@@ -1,0 +1,94 @@
+/* Estilo general del contenedor del dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #4caf50, #81c784);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Encabezado del dashboard */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: #388e3c;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard-title {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Botón de cerrar sesión */
+  .cerrar-sesion {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cerrar-sesion:hover {
+    background: #c0392b;
+  }
+  
+  /* Contenedor principal del contenido */
+  .dashboard-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  /* Mensaje de error */
+  .dashboard-error {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Contenedor de gráficos */
+  .graficos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Estilo individual de los gráficos */
+  .grafico {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .grafico h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Canvas de los gráficos */
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 300px;
+  }
+  

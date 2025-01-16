@@ -1,0 +1,143 @@
+/* Contenedor principal */
+.visualizar-facturas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Fondo degradado azul */
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  /* Encabezado */
+  .visualizar-facturas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #34495e;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visualizar-facturas-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .cerrar-sesion {
+    background: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cerrar-sesion:hover {
+    background: #c0392b;
+  }
+  
+  /* Mensaje de error */
+  .error-mensaje {
+    color: #ffcccc;
+    background: #900d09;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Tabla */
+  .visualizar-facturas-tabla {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ecf0f1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visualizar-facturas-tabla th,
+  .visualizar-facturas-tabla td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #bdc3c7;
+  }
+  
+  .visualizar-facturas-tabla th {
+    background: #2c3e50;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .visualizar-facturas-tabla tr:nth-child(even) {
+    background: #dcdde1;
+  }
+  
+  .visualizar-facturas-tabla tr:nth-child(odd) {
+    background: #f5f6fa;
+  }
+  
+  .visualizar-facturas-tabla td {
+    color: #34495e;
+  }
+  
+  /* Botones de acciones */
+  .detalle-btn,
+  .eliminar-btn {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .detalle-btn {
+    background: #3498db;
+    color: #ffffff;
+  }
+  
+  .detalle-btn:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  .eliminar-btn {
+    background: #e74c3c;
+    color: #ffffff;
+  }
+  
+  .eliminar-btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  /* Botón Atrás */
+  .atras-btn {
+    margin-top: 20px;
+    background: #8e44ad;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .atras-btn:hover {
+    background: #732d91;
+    transform: scale(1.05);
+  }
+  

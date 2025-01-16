@@ -1,0 +1,80 @@
+.pagina-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #d4f7dc, #b8e5c8); /* Fondo verde */
+    color: #00264d;
+  }
+  
+  /* Estilo del encabezado */
+  .pagina-principal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #87cefa;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #00264d;
+  }
+  
+  .pagina-principal-header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .pagina-principal-cerrar-sesion {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #cc0000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .pagina-principal-cerrar-sesion:hover {
+    background: #ff3333;
+  }
+  
+  /* Contenedor del menú */
+  .pagina-principal-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .pagina-principal-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Botones del menú */
+  .pagina-principal-menu-button {
+    padding: 15px;
+    background: white;
+    color: #00264d;
+    border: 2px solid #00264d;
+    border-radius: 20px; /* Bordes redondeados */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .pagina-principal-menu-button:hover {
+    background: #e6ffe6; /* Cambio de color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de zoom */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+  }
+  

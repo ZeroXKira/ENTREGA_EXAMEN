@@ -1,0 +1,139 @@
+.visualizacion-fiados-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #007BFF, #00CFFF); /* Fondo azul degradado */
+    min-height: 100vh;
+    color: #000000; /* Color del texto negro */
+  }
+  
+  .visualizacion-fiados-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  
+  .visualizacion-fiados-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000; /* Texto negro */
+  }
+  
+  .visualizacion-fiados-cerrar-sesion {
+    background: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 2px solid #000000; /* Borde negro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .visualizacion-fiados-cerrar-sesion:hover {
+    background: #d1ecf1; /* Azul claro */
+    color: #007BFF; /* Texto azul */
+  }
+  
+  .visualizacion-fiados-main {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  
+  .visualizacion-fiados-tabla-container {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visualizacion-fiados-tabla {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .visualizacion-fiados-tabla th,
+  .visualizacion-fiados-tabla td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000000; /* Borde negro */
+  }
+  
+  .visualizacion-fiados-tabla th {
+    background: #007BFF; /* Azul fuerte */
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold;
+  }
+  
+  .visualizacion-fiados-tabla tr:nth-child(even) {
+    background: #EAF7FF; /* Azul claro */
+  }
+  
+  .visualizacion-fiados-tabla tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  .visualizacion-fiados-tabla td {
+    color: #000000; /* Texto negro */
+  }
+  
+  .visualizacion-fiados-btn-pagado {
+    background: #28a745; /* Verde */
+    color: #ffffff;
+    border: 2px solid #000000; /* Borde negro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .visualizacion-fiados-btn-pagado:hover {
+    background: #218838; /* Verde oscuro */
+  }
+  
+  .visualizacion-fiados-btn-excel {
+    background: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 2px solid #000000; /* Borde negro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .visualizacion-fiados-btn-excel:hover {
+    background: #d4edda; /* Verde claro */
+    color: #28a745; /* Texto verde */
+  }
+  
+  .visualizacion-fiados-botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .visualizacion-fiados-btn-atras {
+    background: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    border: 2px solid #000000; /* Borde negro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .visualizacion-fiados-btn-atras:hover {
+    background: #EAF7FF; /* Azul claro */
+    color: #007BFF; /* Texto azul */
+  }
+  

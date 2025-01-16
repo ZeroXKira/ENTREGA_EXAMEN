@@ -1,0 +1,119 @@
+/* Contenedor principal */
+.ventas-realizadas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* Fondo degradado azul */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Encabezado */
+  .ventas-realizadas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px 20px;
+    background: #005582;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ventas-realizadas-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .ventas-realizadas-cerrar-sesion {
+    background: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ventas-realizadas-cerrar-sesion:hover {
+    background: #c0392b;
+  }
+  
+  /* Mensaje de error */
+  .ventas-realizadas-error {
+    color: #ff4444;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Tabla de ventas */
+  .ventas-realizadas-tabla {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ventas-realizadas-tabla th,
+  .ventas-realizadas-tabla td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .ventas-realizadas-tabla th {
+    background: #005582;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .ventas-realizadas-tabla tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .ventas-realizadas-tabla tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  .ventas-realizadas-tabla td {
+    color: #333333;
+  }
+  
+  /* Botones */
+  .ventas-realizadas-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .ventas-realizadas-btn-excel,
+  .ventas-realizadas-btn-atras {
+    background: #007bb5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .ventas-realizadas-btn-excel:hover {
+    background: #005582;
+  }
+  
+  .ventas-realizadas-btn-atras:hover {
+    background: #004466;
+  }
+  

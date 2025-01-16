@@ -1,0 +1,80 @@
+/* Estilo específico para la Página de Administrador */
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #001f4d, #003366); /* Fondo único */
+    color: white;
+  }
+  
+  /* Encabezado */
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background: #00264d;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cerrar-sesion {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #cc0000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cerrar-sesion:hover {
+    background: #ff3333;
+  }
+  
+  /* Menú */
+  .admin-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    background: white;
+    color: #00264d;
+    border: 2px solid #00264d;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background: #cce6ff;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  

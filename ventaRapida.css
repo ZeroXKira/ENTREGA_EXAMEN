@@ -1,0 +1,175 @@
+/* Contenedor principal */ 
+.venta-rapida-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #4caf50, #81c784); /* Fondo verde degradado */
+    min-height: 100vh;
+    color: #000000; /* Texto negro */
+}
+  
+/* Encabezado */
+.venta-rapida-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #388e3c;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #000000; /* Texto negro */
+}
+  
+.venta-rapida-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.venta-rapida-cerrar-sesion {
+    background: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.venta-rapida-cerrar-sesion:hover {
+    background: #c0392b;
+}
+  
+/* Formulario */
+.venta-rapida-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+  
+.venta-rapida-form-container label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000; /* Texto negro */
+}
+  
+.venta-rapida-form-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 250px;
+}
+  
+.venta-rapida-form-container button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.venta-rapida-form-container button:hover {
+    background: #388e3c;
+}
+  
+/* Tabla */
+.venta-rapida-tabla-container {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+  
+.venta-rapida-tabla-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.venta-rapida-tabla-container th,
+.venta-rapida-tabla-container td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #000000; /* Texto negro */
+}
+  
+.venta-rapida-tabla-container th {
+    background: #388e3c;
+    color: white; /* Encabezados blancos */
+    font-weight: bold;
+}
+  
+.venta-rapida-tabla-container tr:nth-child(even) {
+    background: #f2f2f2;
+}
+  
+.venta-rapida-tabla-container tr:nth-child(odd) {
+    background: #ffffff;
+}
+  
+.venta-rapida-tabla-container td button {
+    background: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.venta-rapida-tabla-container td button:hover {
+    background: #c0392b;
+}
+  
+/* Totales */
+.venta-rapida-totales {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000; /* Texto negro */
+    text-align: center;
+}
+  
+.venta-rapida-totales span {
+    font-weight: bold;
+    color: #000000; /* Cambiado a negro */
+}
+  
+/* Botones de acciones */
+.venta-rapida-botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+  
+.venta-rapida-botones button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.venta-rapida-botones button:hover {
+    background: #2980b9;
+}

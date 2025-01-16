@@ -1,0 +1,94 @@
+/* Contenedor principal */
+.admin-usuarios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #1c1c46, #343a72);
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  /* Encabezado */
+  .admin-usuarios-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #2c3e50;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-usuarios-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .admin-usuarios-cerrar-sesion {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .admin-usuarios-cerrar-sesion:hover {
+    background: #c0392b;
+  }
+  
+  /* Botón para agregar usuario */
+  .admin-usuarios-agregar-btn {
+    background: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .admin-usuarios-agregar-btn:hover {
+    background: #27ae60;
+  }
+  
+  /* Tabla */
+  .admin-usuarios-table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admin-usuarios-table th {
+    background: #16a085;
+    color: white;
+  }
+  
+  .admin-usuarios-table td {
+    color: white;
+  }
+  
+  /* Botones de acciones */
+  .admin-usuarios-editar-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .admin-usuarios-eliminar-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

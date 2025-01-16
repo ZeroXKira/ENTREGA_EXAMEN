@@ -1,0 +1,148 @@
+/* Contenedor principal */
+.todos-datos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Fondo degradado */
+    min-height: 100vh;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Encabezado */
+  .todos-datos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: #333;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todos-datos-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .todos-datos-cerrar-sesion {
+    background: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .todos-datos-cerrar-sesion:hover {
+    background: #c0392b;
+  }
+  
+  /* Mensaje de error */
+  .todos-datos-error {
+    color: #ffcccc;
+    background: #900d09;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Botón de exportar */
+  .todos-datos-acciones {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
+  }
+  
+  .todos-datos-exportar {
+    background: #2ecc71;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .todos-datos-exportar:hover {
+    background: #27ae60;
+  }
+  
+  /* Tabla */
+  .todos-datos-tabla {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .todos-datos-tabla th,
+  .todos-datos-tabla td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .todos-datos-tabla th {
+    background: #6a11cb;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .todos-datos-tabla tr:nth-child(even) {
+    background: #f7f7f7;
+  }
+  
+  .todos-datos-tabla tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  
+  .todos-datos-tabla td {
+    color: #333;
+  }
+  
+  /* Estilo para las celdas vacías */
+  .todos-datos-tabla td:empty {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* Media queries para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .todos-datos-header,
+    .todos-datos-tabla {
+      width: 90%;
+    }
+  
+    .todos-datos-exportar {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .todos-datos-cerrar-sesion {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .todos-datos-tabla th,
+    .todos-datos-tabla td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
